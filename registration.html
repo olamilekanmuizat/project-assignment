@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validator</title>
+    <style>
+        span{
+            margin-left:10px;
+            font-weight: bold;
+        }
+
+        .valid{
+            color:green;
+        }
+
+        .invalid{
+            color:red;
+        }
+        input{
+            display: block;
+            margin-bottom: 15px;
+            padding:8px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+
+    <label>Username</label>
+    <input type="text" id="username">
+    <span id="usermsg"></span>
+
+    <label>Password</label>
+    <input type="password" id="password">
+    <span id="passmsg"></span>
+
+    <label>Phone Number</label>
+    <input type="text" id="phone" placeholder="+2348012345678">
+    <span id="phonemsg"></span>
+
+<script src="registration.js"></script>
+</body>
+</html>
